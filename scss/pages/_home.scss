@@ -1,0 +1,714 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v19-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v19-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.main {
+  position: relative;
+  top: 2.5rem;
+  background-color: #f5f7fa;
+}
+.main__container {
+}
+.container {
+}
+.main__content {
+}
+.main__title {
+  width: 45rem;
+  height: 10.6rem;
+  font-weight: 600;
+  font-size: 4.4rem;
+  line-height: 5.2rem;
+  color: #4d4d4d;
+  position: relative;
+  top: 11rem;
+}
+.main__color_title {
+  color: #4caf4f;
+}
+.main__desc {
+  width: 45.7rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #717171;
+  position: relative;
+  top: 12rem;
+}
+.main__btn_parent {
+  position: relative;
+  top: 14rem;
+}
+.main__dot {
+  position: relative;
+  left: 39rem;
+  top: -2rem;
+}
+.main__dot__image {
+}
+.main__btn {
+}
+.btn {
+}
+.main__img {
+}
+.main__image {
+  position: relative;
+  left: 58rem;
+}
+.section {
+}
+.site__section {
+}
+.section__content {
+}
+.section__title {
+  width: 77rem;
+  height: 3.1rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #4d4d4d;
+  position: relative;
+  top: 3rem;
+  left: 35rem;
+}
+.secttion__desc {
+  width: 77rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #717171;
+  position: relative;
+  top: 4rem;
+  left: 30rem;
+}
+
+.section__logos {
+  display: flex;
+  gap: 9.7rem;
+  position: relative;
+  top: 7rem;
+  left: 2.5rem;
+}
+.section__logo {
+}
+
+.site__adv {
+}
+.site__adv__container {
+}
+.container {
+}
+.adv__content {
+}
+.adv__title {
+  width: 37.7rem;
+  height: 6.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #4d4d4d;
+  position: relative;
+  top: 10.7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adv__desc {
+  width: 15rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #717171;
+  position: relative;
+  top: 11.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adv__card {
+}
+.adv__card__member {
+  // border: 0.1rem solid #abbed133;
+  // border-radius: 0.5rem;
+  position: relative;
+  top: 15rem;
+}
+.adv__member__img {
+  position: relative;
+  left: 2.8rem;
+}
+.adv__member__title {
+  width: 18.5rem;
+  height: 5.1rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+}
+.adv__member__desc {
+  width: 17.4rem;
+  height: 4.2rem;
+  font-weight: 400;
+  font-size: 0.9;
+  line-height: 1.3rem;
+  color: #717171;
+  padding-top: 1rem;
+}
+.adv__card__national {
+  position: relative;
+  left: 43rem;
+  top: 1.5rem;
+}
+.adv__national__img {
+}
+.adv__national__title {
+  width: 18.5rem;
+  height: 5.1rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+}
+.adv__national__desc {
+  width: 16.7rem;
+  height: 5.6rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #4d4d4d;
+  padding-top: 1rem;
+}
+.adv__card__club {
+  position: relative;
+  left: 75rem;
+  bottom: 13.5rem;
+}
+.adv__club__img {
+}
+.adv__club__title {
+  width: 16rem;
+  height: 5.1rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+}
+.adv__club__desc {
+  width: 17.71rem;
+  height: 4.2rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #717171;
+  padding-top: 1rem;
+}
+
+.site__snippet {
+}
+.snippet__container {
+}
+.container {
+}
+.snippet__content {
+}
+.snippet__img {
+}
+.snippet__title {
+  width: 41.8rem;
+  height: 6.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #4d4d4d;
+  position: relative;
+  left: 45rem;
+  bottom: 25rem;
+}
+.snippet__desc {
+  width: 41.18rem;
+  height: 5.6rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #717171;
+  position: relative;
+  top: 1.1rem;
+  position: relative;
+  left: 45rem;
+  top: -23rem;
+}
+.sn__btn {
+  position: relative;
+  top: 2.2rem;
+  left: 45rem;
+  top: -20rem;
+}
+.snippet__btn {
+  padding-left: 2.8rem;
+}
+.btn {
+}
+.site__about {
+  background-color: #f5f7fa;
+  padding: 10rem 0;
+}
+.about__container {
+}
+.container {
+}
+.about__content {
+}
+.about__title {
+  width: 28.4rem;
+  height: 6.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  position: relative;
+  right: 5rem;
+  top: -2rem;
+}
+.about__title__color {
+  color: #4caf4f;
+}
+.about__desc {
+  width: 37.5rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #18191f;
+  position: relative;
+  right: 5rem;
+  top: -2rem;
+}
+
+.about__logo {
+}
+.members__logo {
+  display: flex;
+  position: relative;
+  left: 56rem;
+  top: -10rem;
+}
+.members__logo__img {
+}
+.about__members__logo {
+}
+.members__title {
+  width: 13.2rem;
+  height: 2.6rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+  position: relative;
+  left: 1.1rem;
+}
+.members__desc {
+  width: 13.2rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #717171;
+  position: relative;
+  top: 3rem;
+  left: -12.2rem;
+}
+
+.clubs__logo {
+  display: flex;
+  position: relative;
+  left: 78rem;
+  top: -14rem;
+}
+.about__clubs__logo {
+  position: relative;
+  top: 0.4rem;
+}
+.clubs__title {
+  width: 13.2rem;
+  height: 2.6rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+}
+.clubs__desc {
+  width: 13.2rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #717171;
+  position: relative;
+  top: 3rem;
+  right: 13.2rem;
+}
+
+.events__logo {
+  display: flex;
+  position: relative;
+  left: 56rem;
+  bottom: 11rem;
+}
+.about__events__logo {
+  position: relative;
+  top: 0.4rem;
+}
+.events__title {
+  width: 13.2rem;
+  height: 2.6rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+  position: relative;
+  left: 1.1rem;
+}
+.events__desc {
+  width: 13.2rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #717171;
+  position: relative;
+  top: 3rem;
+  right: 12rem;
+}
+
+.payments__logo {
+  display: flex;
+  position: relative;
+  left: 79rem;
+  bottom: 14rem;
+}
+.about__clubs__logo {
+  position: relative;
+  top: 0.5rem;
+}
+.payments__title {
+  width: 13.2rem;
+  height: 2.6rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  color: #4d4d4d;
+  position: relative;
+  left: 1.1rem;
+}
+.payments__desc {
+  width: 13.2rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #717171;
+  position: relative;
+  right: 12rem;
+  top: 3rem;
+}
+.text {
+}
+.site__data {
+  background-color: white;
+  padding: 12rem;
+}
+.data__container {
+}
+.container {
+}
+.data__content {
+}
+.site__data {
+}
+.data__container {
+}
+.container {
+}
+.data__content {
+}
+.data__icon {
+  position: relative;
+  right: 4rem;
+}
+.data_title {
+  width: 41rem;
+  height: 6.2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  color: #4d4d4d;
+  position: relative;
+  left: 50rem;
+  bottom: 27rem;
+}
+.data__desc {
+  width: 41.8rem;
+  height: 8.4rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  position: relative;
+  left: 50rem;
+  bottom: 24.5rem;
+}
+.data__btn {
+  position: relative;
+  left: 50rem;
+  bottom: 23rem;
+}
+.btn {
+}
+.site__brend {
+  background-color: #f5f7fa;
+  height: 28rem;
+}
+.brend__container {
+}
+.container {
+}
+.brend__content {
+}
+.brend__img {
+  position: relative;
+  top: 2.2rem;
+}
+
+.brend__data {
+}
+.brend__desc {
+  width: 52rem;
+  height: 11.7rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #717171;
+  position: relative;
+  left: 30rem;
+  bottom: 22.4rem;
+}
+.brend__author {
+  width: 52rem;
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #4caf4f;
+  position: relative;
+  left: 30rem;
+  bottom: 21rem;
+}
+.brend__author__desc {
+  width: 52rem;
+  height: 1.7rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #89939e;
+  position: relative;
+  left: 30rem;
+  bottom: 20rem;
+}
+.brend__logos {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  left: 30rem;
+  bottom: 18rem;
+}
+.brend__logo {
+}
+.brend__logo__desc {
+  width: 13rem;
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #4caf4f;
+  position: relative;
+  left: 70rem;
+  bottom: 20.5rem;
+}
+
+.site__marketing {
+}
+.marketing__container {
+}
+.container {
+}
+.marketing__content {
+}
+.marketing__title {
+  width: 77rem;
+  height: 3.1rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #4d4d4d;
+  position: relative;
+  left: 24rem;
+}
+.marketing__desc {
+  width: 42rem;
+  height: 5.1rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #717171;
+  position: relative;
+  left: 22rem;
+  top: 0.5rem;
+}
+.marketing__oneren {
+  position: relative;
+  top: 1.1rem;
+}
+.oneren__img {
+}
+.oneren__text {
+  width: 22rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  background-color: #f5f7fa;
+  box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  -webkit-box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  -moz-box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  position: relative;
+  bottom: 6.3rem;
+  left: 2rem;
+}
+.oneren__title {
+  width: 19.8rem;
+  height: 5.9rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #717171;
+  position: relative;
+  left: 2.6rem;
+  top: 1.1rem;
+}
+.oneren__link {
+  width: 6.9rem;
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #4caf4f;
+  position: relative;
+  top: 2.4rem;
+  left: 6rem;
+}
+.marketing__them {
+  position: relative;
+  left: 34rem;
+  bottom: 31rem;
+}
+.them__img {
+}
+.them__text {
+  width: 22rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  background-color: #f5f7fa;
+  box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  -webkit-box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  -moz-box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  position: relative;
+  bottom: 37.8rem;
+  left: 36rem;
+}
+.them__title {
+  width: 19rem;
+  height: 5.9rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #717171;
+  position: relative;
+  left: 2.6rem;
+  top: 1.1rem;
+}
+.them__desc {
+  width: 6.9rem;
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #4caf4f;
+  position: relative;
+  top: 2.4rem;
+  left: 6rem;
+}
+.marketing__australia {
+  position: relative;
+  left: 68rem;
+  bottom: 63rem;
+}
+.australia__img {
+}
+.australia__text {
+  width: 22rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  background-color: #f5f7fa;
+  box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  -webkit-box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  -moz-box-shadow: 1px 6px 5px 0px rgba(171, 190, 209, 0.75);
+  position: relative;
+  left: 70rem;
+  bottom: 69.8rem;
+}
+.australia__title {
+  width: 19rem;
+  height: 5.9rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #717171;
+  position: relative;
+  left: 2.6rem;
+  top: 1.1rem;
+}
+.australia__desc {
+  width: 6.9rem;
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #4caf4f;
+  position: relative;
+  top: 2.4rem;
+  left: 6rem;
+}

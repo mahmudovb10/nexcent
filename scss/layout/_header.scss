@@ -1,0 +1,28 @@
+.header__content {
+  position: absolute;
+}
+.site__logo {
+  position: relative;
+  top: 2.7rem;
+}
+.site__nav {
+  position: relative;
+  top: 2rem;
+  display: flex;
+  text-align: center;
+}
+.site__nav_item {
+  width: 7.1rem;
+  height: 1.7rem;
+  position: relative;
+  top: 1.2rem;
+  left: 25rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 8rem;
+  color: #4d4d4d;
+}
+.header__btn {
+  position: relative;
+  left: 39rem;
+}
