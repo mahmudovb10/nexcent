@@ -9,4 +9,12 @@
   line-height: 1.6rem;
   padding: 1rem;
   padding-left: 1.5rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #adb3ad;
+  color: #000000;
+}
+.btn:active {
+  border-color: transparent;
 }
